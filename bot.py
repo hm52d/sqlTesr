@@ -22,7 +22,7 @@ from aiogram.contrib.middlewares.logging import LoggingMiddleware
 
 
 API_TOKEN = '6346055764:AAFVb3v-mW0EWf4tuFYKPZ3YM--1fs6-t6E'
-DB_URI =""
+DB_URI ="postgresql://postgres:5B3C6*g2aa3C56C3CGdceEBAf-FfgAfE@monorail.proxy.rlwy.net:41208/railway"
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
